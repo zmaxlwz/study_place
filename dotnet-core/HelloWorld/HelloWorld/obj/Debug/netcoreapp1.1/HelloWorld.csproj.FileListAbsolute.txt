@@ -1,0 +1,9 @@
+C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\bin\Debug\netcoreapp1.1\HelloWorld.deps.json
+C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\bin\Debug\netcoreapp1.1\HelloWorld.runtimeconfig.json
+C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\bin\Debug\netcoreapp1.1\HelloWorld.runtimeconfig.dev.json
+C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\bin\Debug\netcoreapp1.1\HelloWorld.dll
+C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\bin\Debug\netcoreapp1.1\HelloWorld.pdb
+C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Debug\netcoreapp1.1\HelloWorld.csprojResolveAssemblyReference.cache
+C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Debug\netcoreapp1.1\HelloWorld.AssemblyInfo.cs
+C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Debug\netcoreapp1.1\HelloWorld.dll
+C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Debug\netcoreapp1.1\HelloWorld.pdb

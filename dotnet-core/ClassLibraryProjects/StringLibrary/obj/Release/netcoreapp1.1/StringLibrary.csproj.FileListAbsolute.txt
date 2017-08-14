@@ -1,0 +1,6 @@
+C:\workplace\study_place\dotnet-core\ClassLibraryProjects\StringLibrary\bin\Release\netcoreapp1.1\StringLibrary.deps.json
+C:\workplace\study_place\dotnet-core\ClassLibraryProjects\StringLibrary\bin\Release\netcoreapp1.1\StringLibrary.dll
+C:\workplace\study_place\dotnet-core\ClassLibraryProjects\StringLibrary\bin\Release\netcoreapp1.1\StringLibrary.pdb
+C:\workplace\study_place\dotnet-core\ClassLibraryProjects\StringLibrary\obj\Release\netcoreapp1.1\StringLibrary.AssemblyInfo.cs
+C:\workplace\study_place\dotnet-core\ClassLibraryProjects\StringLibrary\obj\Release\netcoreapp1.1\StringLibrary.dll
+C:\workplace\study_place\dotnet-core\ClassLibraryProjects\StringLibrary\obj\Release\netcoreapp1.1\StringLibrary.pdb
