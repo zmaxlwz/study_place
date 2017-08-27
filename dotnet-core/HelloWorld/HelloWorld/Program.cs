@@ -7,6 +7,7 @@ using System.Linq;
 namespace HelloWorld
 {
     using System;
+    using System.Globalization;
     using System.Threading;
     using System.Threading.Tasks;
     using System.Net.Http;
@@ -16,6 +17,18 @@ namespace HelloWorld
     class Program
     {
         private int num = 5;
+
+        static void checkString(string str)
+        {
+            if (str.Length < 3)
+            {
+                Console.WriteLine("less than 3");
+            }
+            else
+            {
+                Console.WriteLine(">= 3");
+            }
+        }
 
         static void Main(string[] args)
         {
@@ -32,7 +45,10 @@ namespace HelloWorld
             str = "hello";
             Console.WriteLine("value: {0}, Any: {1}.", str.Length, str.Any());
 
-            
+            checkString(401.ToString(CultureInfo.InvariantCulture));
+
+
+            /*
             Console.WriteLine("\r\nExists Certs Name and Location");
             Console.WriteLine("------ ----- -------------------------");
 
@@ -73,7 +89,7 @@ namespace HelloWorld
                 }
             }
             Console.WriteLine();
-            
+            */
 
             Console.Write("Press any key to continue...");
             Console.ReadKey(true);
