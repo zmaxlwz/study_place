@@ -7,3 +7,4 @@ C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Release\netcoreap
 C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Release\netcoreapp1.1\HelloWorld.dll
 C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Release\netcoreapp1.1\HelloWorld.pdb
 C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Release\netcoreapp1.1\HelloWorld.csprojResolveAssemblyReference.cache
+C:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Release\netcoreapp1.1\HelloWorld.csproj.CoreCompileInputs.cache

@@ -2,17 +2,20 @@
 // some copyright information
 //----------
 
-using System.Linq;
-
 namespace HelloWorld
 {
     using System;
+    using System.IO;
     using System.Globalization;
+    using System.Linq;
     using System.Threading;
     using System.Threading.Tasks;
     using System.Net.Http;
     using System.Security.Cryptography;
     using System.Security.Cryptography.X509Certificates;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.Hosting.Internal;
+    using HelloWorld.Lib;
 
     class Program
     {
@@ -47,6 +50,31 @@ namespace HelloWorld
 
             checkString(401.ToString(CultureInfo.InvariantCulture));
 
+            IHostingEnvironment hostingEnvironment = new HostingEnvironment(){EnvironmentName = EnvironmentName.Development};
+            Console.WriteLine("Hosting Environment is Development: {0}", hostingEnvironment.IsDevelopment());
+
+            Console.WriteLine("null value is : {0}", null);
+
+            var url = TestUtils.GetHostUrl();
+            Console.WriteLine("The URL is: {0}", url);
+
+            var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+            Console.WriteLine("Environment is : {0}", env);
+
+            //TestUtils.CreateFunctionalXmlElement();
+
+            TestUtils.GetTestResult();
+            
+            /*
+            string p1 = @"c:\";
+            string p2 = "workplace";
+            string p3 = "NightWatchTestResult.trx";
+            string filePath = Path.Combine(p1, p2, p3);
+            Console.WriteLine(filePath);
+
+            string text = File.ReadAllText(filePath);
+            Console.WriteLine("Contents of the result file are: \n {0}", text);
+            */
 
             /*
             Console.WriteLine("\r\nExists Certs Name and Location");
@@ -95,4 +123,5 @@ namespace HelloWorld
             Console.ReadKey(true);
         }
     }
+
 }

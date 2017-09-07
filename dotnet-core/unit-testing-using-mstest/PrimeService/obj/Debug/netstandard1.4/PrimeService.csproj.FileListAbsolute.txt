@@ -1,0 +1,7 @@
+C:\workplace\study_place\dotnet-core\unit-testing-using-mstest\PrimeService\bin\Debug\netstandard1.4\PrimeService.deps.json
+C:\workplace\study_place\dotnet-core\unit-testing-using-mstest\PrimeService\bin\Debug\netstandard1.4\PrimeService.dll
+C:\workplace\study_place\dotnet-core\unit-testing-using-mstest\PrimeService\bin\Debug\netstandard1.4\PrimeService.pdb
+C:\workplace\study_place\dotnet-core\unit-testing-using-mstest\PrimeService\obj\Debug\netstandard1.4\PrimeService.csproj.CoreCompileInputs.cache
+C:\workplace\study_place\dotnet-core\unit-testing-using-mstest\PrimeService\obj\Debug\netstandard1.4\PrimeService.AssemblyInfo.cs
+C:\workplace\study_place\dotnet-core\unit-testing-using-mstest\PrimeService\obj\Debug\netstandard1.4\PrimeService.dll
+C:\workplace\study_place\dotnet-core\unit-testing-using-mstest\PrimeService\obj\Debug\netstandard1.4\PrimeService.pdb
