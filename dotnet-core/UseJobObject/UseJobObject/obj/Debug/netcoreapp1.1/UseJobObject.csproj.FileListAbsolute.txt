@@ -1,0 +1,10 @@
+E:\workplace\study_place\dotnet-core\UseJobObject\UseJobObject\bin\Debug\netcoreapp1.1\UseJobObject.deps.json
+E:\workplace\study_place\dotnet-core\UseJobObject\UseJobObject\bin\Debug\netcoreapp1.1\UseJobObject.runtimeconfig.json
+E:\workplace\study_place\dotnet-core\UseJobObject\UseJobObject\bin\Debug\netcoreapp1.1\UseJobObject.runtimeconfig.dev.json
+E:\workplace\study_place\dotnet-core\UseJobObject\UseJobObject\bin\Debug\netcoreapp1.1\UseJobObject.dll
+E:\workplace\study_place\dotnet-core\UseJobObject\UseJobObject\bin\Debug\netcoreapp1.1\UseJobObject.pdb
+E:\workplace\study_place\dotnet-core\UseJobObject\UseJobObject\obj\Debug\netcoreapp1.1\UseJobObject.csprojResolveAssemblyReference.cache
+E:\workplace\study_place\dotnet-core\UseJobObject\UseJobObject\obj\Debug\netcoreapp1.1\UseJobObject.csproj.CoreCompileInputs.cache
+E:\workplace\study_place\dotnet-core\UseJobObject\UseJobObject\obj\Debug\netcoreapp1.1\UseJobObject.AssemblyInfo.cs
+E:\workplace\study_place\dotnet-core\UseJobObject\UseJobObject\obj\Debug\netcoreapp1.1\UseJobObject.dll
+E:\workplace\study_place\dotnet-core\UseJobObject\UseJobObject\obj\Debug\netcoreapp1.1\UseJobObject.pdb

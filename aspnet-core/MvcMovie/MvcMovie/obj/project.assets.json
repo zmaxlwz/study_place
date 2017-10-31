@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "Libuv/1.9.1": {
@@ -9774,15 +9774,27 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\workplace\\study_place\\mvc-tutorial\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+      "projectUniqueName": "E:\\workplace\\study_place\\aspnet-core\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
       "projectName": "MvcMovie",
-      "projectPath": "C:\\workplace\\study_place\\mvc-tutorial\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
-      "outputPath": "C:\\workplace\\study_place\\mvc-tutorial\\MvcMovie\\MvcMovie\\obj\\",
+      "projectPath": "E:\\workplace\\study_place\\aspnet-core\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+      "packagesPath": "C:\\Users\\wenzliu\\.nuget\\packages\\",
+      "outputPath": "E:\\workplace\\study_place\\aspnet-core\\MvcMovie\\MvcMovie\\obj\\",
       "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\wenzliu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}

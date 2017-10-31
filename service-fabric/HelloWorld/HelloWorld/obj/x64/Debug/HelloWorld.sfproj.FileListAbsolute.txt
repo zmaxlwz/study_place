@@ -1,0 +1,1 @@
+E:\workplace\study_place\service-fabric\HelloWorld\HelloWorld\obj\x64\Debug\HelloWorld.sfproj.CoreCompileInputs.cache

@@ -1,0 +1,12 @@
+E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Release\netcoreapp1.1\win7-x64\hostpolicy.dll
+E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Release\netcoreapp1.1\win7-x64\hostfxr.dll
+E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Release\netcoreapp1.1\win7-x64\ConsoleCpuRunningApp.exe
+E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Release\netcoreapp1.1\win7-x64\ConsoleCpuRunningApp.deps.json
+E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Release\netcoreapp1.1\win7-x64\ConsoleCpuRunningApp.runtimeconfig.json
+E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Release\netcoreapp1.1\win7-x64\ConsoleCpuRunningApp.runtimeconfig.dev.json
+E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Release\netcoreapp1.1\win7-x64\ConsoleCpuRunningApp.dll
+E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Release\netcoreapp1.1\win7-x64\ConsoleCpuRunningApp.pdb
+E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\obj\Release\netcoreapp1.1\win7-x64\ConsoleCpuRunningApp.csproj.CoreCompileInputs.cache
+E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\obj\Release\netcoreapp1.1\win7-x64\ConsoleCpuRunningApp.AssemblyInfo.cs
+E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\obj\Release\netcoreapp1.1\win7-x64\ConsoleCpuRunningApp.dll
+E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\obj\Release\netcoreapp1.1\win7-x64\ConsoleCpuRunningApp.pdb

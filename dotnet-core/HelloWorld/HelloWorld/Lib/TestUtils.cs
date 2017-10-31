@@ -1,11 +1,14 @@
 ﻿
 
+
+
 namespace HelloWorld.Lib
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
+    using System.Text;
     using System.Xml.Linq;
     using Newtonsoft.Json.Linq;
 
@@ -13,6 +16,7 @@ namespace HelloWorld.Lib
     {
         private static string configPath = @".\Config";
         private static string testResultPath = @".\TestResults";
+        private static string testPath = @".\Tests";
 
         public static string GetHostUrl()
         {
@@ -114,6 +118,41 @@ namespace HelloWorld.Lib
             {
                 Console.WriteLine("The test result file doesn't exists. ");
             }
+        }
+
+        public static void GetFileNames()
+        {
+            string[] files = Directory.GetFiles(testPath, "*NightWatchTests*.dll", SearchOption.TopDirectoryOnly);
+            Console.WriteLine("The num of dll files: {0}", files.Length);
+            StringBuilder stringBuilder = new StringBuilder();
+            foreach (var file in files)
+            {
+                stringBuilder.Append(Path.GetFileName(file));
+                stringBuilder.Append(" ");
+            }
+            Console.WriteLine(stringBuilder.ToString());
+        }
+
+        public static void CreateTimeFolder()
+        {
+            var timeNow = DateTime.UtcNow.ToString("MM-dd-yyyy-HH-mm-ss");
+            var folderName = "10.25.245.4--" + timeNow;
+            var filename = "aa.txt";
+            Console.WriteLine(folderName);
+
+            var resultFile = Path.Combine(Directory.GetCurrentDirectory(), folderName, filename);
+            if (File.Exists(resultFile))
+            {
+                Console.WriteLine("The file aa.txt exists");
+                File.Delete(resultFile);
+                return;
+            }
+            else
+            {
+                Console.WriteLine("The file aa.txt doesn't exist");
+            }
+
+            Directory.CreateDirectory(folderName);
         }
 
         public static void CreateFunctionalXmlElement()

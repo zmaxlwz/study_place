@@ -8254,25 +8254,22 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\workplace\\study_place\\dotnet-core\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "E:\\workplace\\study_place\\dotnet-core\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "C:\\workplace\\study_place\\dotnet-core\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+      "projectPath": "E:\\workplace\\study_place\\dotnet-core\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\wenzliu\\.nuget\\packages\\",
-      "outputPath": "C:\\workplace\\study_place\\dotnet-core\\HelloWorld\\HelloWorld\\obj\\",
+      "outputPath": "E:\\workplace\\study_place\\dotnet-core\\HelloWorld\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wenzliu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://msblox.pkgs.visualstudio.com/_packaging/AzureGenevaMonitoring/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp1.1": {
