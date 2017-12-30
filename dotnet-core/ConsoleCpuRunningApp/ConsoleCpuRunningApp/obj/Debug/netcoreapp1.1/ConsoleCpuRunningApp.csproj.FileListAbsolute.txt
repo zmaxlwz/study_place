@@ -1,7 +1,0 @@
-E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Debug\netcoreapp1.1\ConsoleCpuRunningApp.deps.json
-E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Debug\netcoreapp1.1\ConsoleCpuRunningApp.dll
-E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Debug\netcoreapp1.1\ConsoleCpuRunningApp.pdb
-E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\obj\Debug\netcoreapp1.1\ConsoleCpuRunningApp.csproj.CoreCompileInputs.cache
-E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\obj\Debug\netcoreapp1.1\ConsoleCpuRunningApp.AssemblyInfo.cs
-E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\obj\Debug\netcoreapp1.1\ConsoleCpuRunningApp.dll
-E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\obj\Debug\netcoreapp1.1\ConsoleCpuRunningApp.pdb

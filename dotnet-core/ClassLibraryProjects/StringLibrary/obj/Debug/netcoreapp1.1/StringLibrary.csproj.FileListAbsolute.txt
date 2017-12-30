@@ -1,7 +1,0 @@
-C:\workplace\study_place\dotnet-core\ClassLibraryProjects\StringLibrary\bin\Debug\netcoreapp1.1\StringLibrary.deps.json
-C:\workplace\study_place\dotnet-core\ClassLibraryProjects\StringLibrary\bin\Debug\netcoreapp1.1\StringLibrary.dll
-C:\workplace\study_place\dotnet-core\ClassLibraryProjects\StringLibrary\bin\Debug\netcoreapp1.1\StringLibrary.pdb
-C:\workplace\study_place\dotnet-core\ClassLibraryProjects\StringLibrary\obj\Debug\netcoreapp1.1\StringLibrary.csprojResolveAssemblyReference.cache
-C:\workplace\study_place\dotnet-core\ClassLibraryProjects\StringLibrary\obj\Debug\netcoreapp1.1\StringLibrary.AssemblyInfo.cs
-C:\workplace\study_place\dotnet-core\ClassLibraryProjects\StringLibrary\obj\Debug\netcoreapp1.1\StringLibrary.dll
-C:\workplace\study_place\dotnet-core\ClassLibraryProjects\StringLibrary\obj\Debug\netcoreapp1.1\StringLibrary.pdb
