@@ -8,5 +8,7 @@ namespace HelloWorld
     public interface SampleInterface
     {
         int Age { get; }
+
+        void PrintName(int age, string name = "default name");
     }
 }

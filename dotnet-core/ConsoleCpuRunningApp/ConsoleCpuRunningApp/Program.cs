@@ -21,7 +21,7 @@ namespace ConsoleCpuRunningApp
                     sum += i;
                 }
 
-                Console.WriteLine("upper: {0}, sum: {1}", upper, sum);
+                // Console.WriteLine("upper: {0}, sum: {1}", upper, sum);
 
                 if (watch.ElapsedMilliseconds > 1500)
                 {

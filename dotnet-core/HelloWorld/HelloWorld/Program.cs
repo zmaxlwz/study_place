@@ -52,6 +52,7 @@ namespace HelloWorld
 
         static void Main(string[] args)
         {
+            /*
             Console.WriteLine("Hello World!");
             Console.WriteLine(nameof(Program));
             Console.WriteLine(nameof(Program.Main));
@@ -122,13 +123,9 @@ namespace HelloWorld
 
             Console.WriteLine(Environment.GetEnvironmentVariable("hosting__environment") == null);
 
-            var sc = new SampleClass();
-            Console.WriteLine(sc.Age);
-            sc.Age = 10;
-            Console.WriteLine(sc.Age);
-
             string strnull = "my";
             Console.WriteLine("true of false: {0}", strnull is string);
+            */
 
             /*
             Program pg = new Program();
@@ -137,6 +134,10 @@ namespace HelloWorld
             pg.StartMonitoring();
             pg.currentProcess.WaitForExit();
             */
+
+            HttpStatusCode? status1 = HttpStatusCode.Accepted;
+            HttpStatusCode status2 = status1 ?? throw new ArgumentException("status is null.");
+            Console.WriteLine("The status has value: {0}, the value is: {1}", status1.HasValue, status2);
 
             var value = LimitFlags.JOB_OBJECT_LIMIT_KILL_ON_JOB_CLOSE | LimitFlags.JOB_OBJECT_LIMIT_JOB_MEMORY;
             Console.WriteLine("flag type: {0}, value is: {1}", value.GetType(), value);
@@ -154,9 +155,118 @@ namespace HelloWorld
 
             double dnum = 2000.5413;
             Console.WriteLine("round result: {0}", Math.Round(dnum));
+            Console.WriteLine("convert to ulong is: {0}", (ulong)dnum);
+
+            long lnum = 1;
+            var result = lnum * 1.0 / 129836;
+            Console.WriteLine("The result is {0}, result is greater than 0: {1}", result, result > 0);
+
+            // CheckCertificateToExpire();
+            // CheckRequiredCertificate();
+            /*
+            var httpClient = new HttpClient();
+            var response = httpClient.GetAsync("http://helloworld.asgfalcon.io/keepalive").Result;
+            Console.WriteLine("The status code is {0}.", response.StatusCode);
+            var httpContent = response.Content.ReadAsStringAsync().Result;
+            Console.WriteLine("HttpContent is: {0}.", httpContent);
+            */
+
+            SampleInterface sc = new SampleClass();
+            Console.WriteLine(sc.Age);
+            sc.PrintName(10);
+            Console.WriteLine(sc.Age);
 
             Console.Write("Press any key to continue...");
             Console.ReadKey(true);
+        }
+
+        private static void CheckRequiredCertificate()
+        {
+            using (X509Store store = new X509Store(StoreName.My, StoreLocation.LocalMachine))
+            {
+                store.Open(OpenFlags.ReadOnly);
+                var storeCertificateCollection = store.Certificates;
+                var thumbprint = "b552d7ae54e86551e31e270598cf596d70537a14";
+
+                try
+                {
+                    var foundCertificateCollection =
+                        storeCertificateCollection.Find(X509FindType.FindByThumbprint, thumbprint, false);
+                    if (foundCertificateCollection == null || foundCertificateCollection.Count == 0)
+                    {
+                        var description = string.Format(CultureInfo.InvariantCulture, "The following required certificates are not installed: ");
+                        description += string.Format(CultureInfo.InvariantCulture, " ({0} : {1}) ", "cert thumprint", thumbprint);
+                        Console.WriteLine(description);
+                    }
+                    else
+                    {
+                        Console.WriteLine("All required certificates have already been installed.");
+                        var certificate = foundCertificateCollection[0];
+                        using (var chain = new X509Chain())
+                        {
+                            chain.Build(certificate);
+                            // Console.WriteLine("Chain policy: {0}", chain.ChainPolicy);
+                            foreach (var status in chain.ChainStatus)
+                            {
+                                Console.WriteLine("Chain status: {0} -- {1}", status.Status, status.StatusInformation);
+                            }
+
+                            foreach (var element in chain.ChainElements)
+                            {
+                                Console.WriteLine("Chain element information: {0}", element.Information);
+                                foreach (var status in element.ChainElementStatus)
+                                {
+                                    Console.WriteLine("element status: {0} -- {1}", status.Status, status.StatusInformation);
+                                }
+                                Console.WriteLine("Chain element certificate: {0}", element.Certificate);
+                            }                          
+                        }
+                    }
+                }
+                catch (CryptographicException e)
+                {
+                    var desc = string.Format(
+                        CultureInfo.InvariantCulture,
+                        "Exception while trying to find the certificate by Thumbprint from the LocalMachine Store: {0}.",
+                        e);
+                    Console.WriteLine(desc);
+                }
+            }
+        }
+
+        private static void CheckCertificateToExpire()
+        {
+            using (X509Store store = new X509Store(StoreName.My, StoreLocation.LocalMachine))
+            {
+                store.Open(OpenFlags.ReadOnly);
+                X509Certificate2Collection certCollection = store.Certificates;
+                var currentDateTime = DateTime.Now;
+                var certificateToExpireList = new List<X509Certificate2>();
+                foreach (var certificate in certCollection)
+                {
+                    var certExpirationTime = certificate.NotAfter;
+                    var alertTime = certExpirationTime.AddDays(-90);
+                    if (currentDateTime.CompareTo(alertTime) >= 0 && currentDateTime.CompareTo(certExpirationTime) < 0)
+                    {
+                        certificateToExpireList.Add(certificate);
+                    }
+                }
+
+                if (certificateToExpireList.Any())
+                {
+                    var description = string.Format(CultureInfo.InvariantCulture, "The following certificates are to expire: ");
+                    foreach (var certificate in certificateToExpireList)
+                    {
+                        description += string.Format(CultureInfo.InvariantCulture, " ({0} : {1}) ", certificate.FriendlyName, certificate.Thumbprint);
+                    }
+
+                    Console.WriteLine(description);
+                }
+                else
+                {
+                    Console.WriteLine("No certificates are to expire.");
+                }
+            }
         }
 
         private void StartMonitoring()

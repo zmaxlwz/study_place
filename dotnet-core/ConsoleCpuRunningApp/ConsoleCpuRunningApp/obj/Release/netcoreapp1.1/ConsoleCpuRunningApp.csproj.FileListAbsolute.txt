@@ -1,9 +1,8 @@
 E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Release\netcoreapp1.1\ConsoleCpuRunningApp.deps.json
-E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Release\netcoreapp1.1\ConsoleCpuRunningApp.runtimeconfig.json
-E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Release\netcoreapp1.1\ConsoleCpuRunningApp.runtimeconfig.dev.json
 E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Release\netcoreapp1.1\ConsoleCpuRunningApp.dll
 E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\bin\Release\netcoreapp1.1\ConsoleCpuRunningApp.pdb
 E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\obj\Release\netcoreapp1.1\ConsoleCpuRunningApp.csproj.CoreCompileInputs.cache
 E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\obj\Release\netcoreapp1.1\ConsoleCpuRunningApp.AssemblyInfo.cs
 E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\obj\Release\netcoreapp1.1\ConsoleCpuRunningApp.dll
 E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\obj\Release\netcoreapp1.1\ConsoleCpuRunningApp.pdb
+E:\workplace\study_place\dotnet-core\ConsoleCpuRunningApp\ConsoleCpuRunningApp\obj\Release\netcoreapp1.1\ConsoleCpuRunningApp.csprojResolveAssemblyReference.cache

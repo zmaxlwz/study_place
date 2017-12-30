@@ -18,3 +18,4 @@ E:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Release\netcoreap
 E:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Release\netcoreapp1.1\HelloWorld.AssemblyInfo.cs
 E:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Release\netcoreapp1.1\HelloWorld.dll
 E:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Release\netcoreapp1.1\HelloWorld.pdb
+E:\workplace\study_place\dotnet-core\HelloWorld\HelloWorld\obj\Release\netcoreapp1.1\HelloWorld.AssemblyInfoInputs.cache
